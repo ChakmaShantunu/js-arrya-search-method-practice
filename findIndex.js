@@ -1,7 +1,3 @@
-// const fruits = ["apple", "banana", "cherry", "mango"];
-// const fruit = (element) => element === "cherry"
-// const position = fruits.findIndex(fruit);
-// console.log(position);
 
 // Object array-এ find(id == 2)
 
@@ -51,3 +47,13 @@ const products = [
 
 const lowestProduct = products.find(product => product.price < 500)
 console.log(lowestProduct);
+
+//Find the First Person Aged 30 or More
+const people = [
+    { name: "Tuhin", age: 22 },
+    { name: "Mira", age: 28 },
+    { name: "Jony", age: 31 },
+];
+
+const firstPerson = people.find(person => person.age >= 30)
+console.log(firstPerson);
