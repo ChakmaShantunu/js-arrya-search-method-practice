@@ -25,3 +25,8 @@ const products = [
 ];
 const stockProducts = products.every(product => product.stock > 0)
 console.log(stockProducts);
+
+//Check if all ages in an array are less than 100
+const ages = [12, 34, 56, 78, 99];
+const normalAges = ages.every(age => age < 100)
+console.log(normalAges);
