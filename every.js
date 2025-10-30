@@ -16,3 +16,12 @@ const students = [
 ];
 const goodMarks = students.every(student => student.marks > 50)
 console.log(goodMarks);
+
+//Check if all products have stock > 0
+const products = [
+    { name: "Keyboard", stock: 5 },
+    { name: "Mouse", stock: 3 },
+    { name: "Monitor", stock: 2 }
+];
+const stockProducts = products.every(product => product.stock > 0)
+console.log(stockProducts);
