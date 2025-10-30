@@ -31,3 +31,13 @@ console.log(firstNegative);
 const fruits = ["apple", "banana", "mango", "orange"];
 const mango = fruits.find(fruit => fruit === "mango")
 console.log(mango);
+
+//Find a Student with Marks Greater Than 80
+const students = [
+    { name: "Rafi", marks: 75 },
+    { name: "Nila", marks: 82 },
+    { name: "Sajid", marks: 68 },
+];
+
+const aplusStudent = students.find(student => student.marks > 80)
+console.log(aplusStudent);
