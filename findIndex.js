@@ -1,7 +1,7 @@
-const fruits = ["apple", "banana", "cherry", "mango"];
-const fruit = (element) => element === "cherry"
-const position = fruits.findIndex(fruit);
-console.log(position);
+// const fruits = ["apple", "banana", "cherry", "mango"];
+// const fruit = (element) => element === "cherry"
+// const position = fruits.findIndex(fruit);
+// console.log(position);
 
 // Object array-এ find(id == 2)
 
@@ -26,3 +26,8 @@ console.log(firstEven);
 const nums = [4, 6, -1, 9, -3];
 const firstNegative = nums.find(num => num < 0)
 console.log(firstNegative);
+
+//Find a Fruit Named “Mango”
+const fruits = ["apple", "banana", "mango", "orange"];
+const mango = fruits.find(fruit => fruit === "mango")
+console.log(mango);
