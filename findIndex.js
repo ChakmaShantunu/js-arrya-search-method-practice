@@ -41,3 +41,13 @@ const students = [
 
 const aplusStudent = students.find(student => student.marks > 80)
 console.log(aplusStudent);
+
+//Find a Product Whose Price is Less Than 500
+const products = [
+    { name: "Keyboard", price: 700 },
+    { name: "Mouse", price: 450 },
+    { name: "Monitor", price: 800 },
+];
+
+const lowestProduct = products.find(product => product.price < 500)
+console.log(lowestProduct);
