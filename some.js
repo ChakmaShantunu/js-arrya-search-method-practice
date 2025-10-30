@@ -8,5 +8,8 @@ const pets = ["cat", "elephant", "dog", "rat"];
 const longPet = pets.some(pet => pet.length > 3)
 console.log(longPet);
 
-
+//Adult Age Check
+const ages = [12, 17, 20, 15];
+const adult = ages.some(age => age > parseInt(18))
+console.log(adult);
 
