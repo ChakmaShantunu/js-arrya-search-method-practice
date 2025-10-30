@@ -63,3 +63,14 @@ const cities = ["Dhaka", "Sylhet", "Chittagong", "Khulna"];
 
 const sCity = cities.find(city => city.startsWith("S"))
 console.log(sCity);
+
+//Find the Task That is “Pending”
+const tasks = [
+    { id: 1, title: "Frontend Design", status: "completed" },
+    { id: 2, title: "API Integration", status: "pending" },
+    { id: 3, title: "Testing", status: "in-progress" },
+];
+
+const pendingTask = tasks.find(task => task.status === "pending")
+console.log(pendingTask);
+
