@@ -22,6 +22,7 @@
 8. Find the User with ID = 101  
 9. Find the Task That is “Pending”  
 10. Find the First Product Whose Stock is 0 (Out of Stock)
+11. Find the first number that is a perfect square
 
 ---
 

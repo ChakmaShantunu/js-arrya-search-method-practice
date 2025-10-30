@@ -84,3 +84,8 @@ const inventory = [
 const outOfStock = inventory.find(product => product.stock <= 0)
 console.log(outOfStock);
 
+//Find the first number that is a perfect square
+const squareNums = [3, 8, 16, 20, 25];
+
+const perfectSquare = squareNums.find(squareNum => Number.isInteger(Math.sqrt(squareNum)))
+console.log(perfectSquare);
