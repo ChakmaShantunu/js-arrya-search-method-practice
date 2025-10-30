@@ -57,3 +57,9 @@ const people = [
 
 const firstPerson = people.find(person => person.age >= 30)
 console.log(firstPerson);
+
+//Find a City that Starts with “S”
+const cities = ["Dhaka", "Sylhet", "Chittagong", "Khulna"];
+
+const sCity = cities.find(city => city.startsWith("S"))
+console.log(sCity);
