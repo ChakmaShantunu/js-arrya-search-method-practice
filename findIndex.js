@@ -74,3 +74,13 @@ const tasks = [
 const pendingTask = tasks.find(task => task.status === "pending")
 console.log(pendingTask);
 
+//Find the First Product Whose Stock is 0 (Out of Stock)
+const inventory = [
+    { item: "Laptop", stock: 5 },
+    { item: "Mouse", stock: 0 },
+    { item: "Keyboard", stock: 3 },
+];
+
+const outOfStock = inventory.find(product => product.stock <= 0)
+console.log(outOfStock);
+
