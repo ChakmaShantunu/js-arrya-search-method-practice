@@ -48,3 +48,12 @@
 5. Check if a list of products has at least one item with price > 1000
 
 ![Filter Method Practice](./images/code4.png)
+
+### 🔹 every() Practice Problems
+1. Check if all numbers in an array are positive  
+2. Check if all strings in an array have length greater than 3  
+3. Check if all students have marks greater than 50  
+4. Check if all products have stock > 0  
+5. Check if all ages in an array are less than 100  
+
+![Filter Method Practice](./images/code5.png)
