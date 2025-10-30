@@ -20,3 +20,9 @@ const numbers = [1, 3, 7, 8, 10, 13];
 
 const firstEven = numbers.find(num => num % 2 === 0)
 console.log(firstEven);
+
+//Find First Negative Number
+
+const nums = [4, 6, -1, 9, -3];
+const firstNegative = nums.find(num => num < 0)
+console.log(firstNegative);
